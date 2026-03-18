@@ -1,4 +1,5 @@
 import streamlit as st
+from study_timer import render_study_timer
 
 # =========================
 # Personal introduction page
@@ -41,6 +42,13 @@ goal = st.text_area("향후 목표/비전", "# 여기에 작성")
 st.header("6. 연락처")
 email = st.text_input("이메일", "example@example.com")
 linkedin = st.text_input("LinkedIn/사이트", "https://")
+
+st.markdown("---")
+
+st.header("📚 빠른 학습: 공부 타이머")
+st.write("공유 URL로 들어올 때 바로 타이머를 쓰고 싶은 경우 아래 타이머를 사용하세요.")
+st.write("또는 상단 메뉴에서 '공부 타이머'에 들어갈 수 있습니다.")
+render_study_timer()
 
 st.markdown("---")
 st.write("✅ 준비가 완료되면 내용을 저장하고 공유하세요.")
