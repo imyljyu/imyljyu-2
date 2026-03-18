@@ -1,19 +1,11 @@
-# 🎈 Blank app template
+# 자기소개 페이지 템플릿
 
-A simple Streamlit app template for you to modify!
+이 저장소는 자기소개용 Streamlit 페이지 템플릿입니다.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+## 실행
+1. `pip install -r requirements.txt`
+2. `streamlit run streamlit_app.py`
 
-### How to run it on your own machine
+## 수정
+- `streamlit_app.py`에 있는 내용을 채우면 완료됩니다.
 
-1. Install the requirements
-
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
